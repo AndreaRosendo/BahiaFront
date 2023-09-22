@@ -1,6 +1,154 @@
-body {background-color:#FFFF99;}
-.estilotitulo {background-color:#FF9933;font-family:Amsterdam;font-size:200%;color:#A93226;}
-.estilosubtitulo {text-align:center;font-family:Garineldo;font-size:400%;color:#196F3D;text-decoration: line-through;text-decoration: underline;}
-.estilotitparrafo {font-family:AardvarkBold;font-size:150%;color:#FF8F00;}
-.estiloulyol {font-family:Verdana;font-size:90%;}
-.estilosubtitulo2 {font-size:200%;color:#196F3D;}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html{background-color:#FFFF99;
+
+}
+
+body {background-image: url(../Imagenes/Mapamundi-blanco.png); background-size: 100%; background-attachment: fixed;}
+.estilosubtitulo {text-align:center;font-family:Garineldo;font-size:400%;color:#196F3D;text-decoration: line-through;text-decoration: underline;padding-top: 10px;}
+.estilotitparrafo {font-family:AardvarkBold;font-size:150%;color:#FF8F00;padding-left: 35px;padding-top: 15px;}
+.estiloulyol {font-family:Verdana;font-size:90%;font-weight: bold;color: black;padding-left: 35px;padding-top: 15px;display: flex;flex-direction: column;}
+.estilosubtitulo2 {font-size:200%;color:#196F3D;padding-left: 50px;padding-top: 40px;}
+
+
+.video1{
+     display: flex;
+     flex-direction: row-reverse;
+}
+
+.titulo4{
+  text-align: right;
+}
+
+.imag-historia{
+   padding-left: 30px;
+}
+
+.link1{
+   font-size:200%;
+   color:#0277BD;
+   padding-top: 30px;
+}
+
+.contenedor-boton{
+  position: fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FDFEFE;
+  border: 2px solid white;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0,3);
+  z-index:100;
+ }
+
+ .contenedor-boton: hover{
+    text-decoration: none;
+    color:#25d366;
+    background-color:#FDFEFE;
+    }
+  .boton-wsp{
+        margin-top:16px;
+
+  }
+
+header {
+  height:150px;
+  background-color:#FF9933;
+  font-family:Amsterdam;
+  font-size:200%;
+  color:#A93226;
+  text-align: left;
+
+}
+#banner{
+  height: 150px;
+  width: 600px;
+  background: #FF9933;
+  float: right;
+
+}
+#Logopagina{
+  height: 150px;
+  width: 150px;
+  background: #FF9933;
+  float: left;
+}
+
+nav {
+  height: 50px;
+  background: black;
+  color: #FDFEFE;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline-inline-block;
+  padding: 0px 20px;
+  float: left;
+}
+
+a{
+  color: #FDFEFE;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #82E0AA;
+}
+
+
+main{
+    height: auto;
+
+}
+
+footer{
+    height: 150px;
+    background: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+   .cont-btn-div{
+     margin-top: 16px;
+     color:#FFF;
+     width:35px;
+     height:auto;
+     bottom:30px;
+     right:30px;
+     z-index:0;
+
+    }
+   .cont-btn-div: hover{
+       text-decoration: none;
+       color: #81D4FA;
+       background-color:#FFF;
+    }
+
+   .boton-div{
+     margin-top:16px;
+     width: 30px;
+     height: auto;
+
+    }
