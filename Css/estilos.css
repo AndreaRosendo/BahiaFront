@@ -52,6 +52,7 @@ body {background-image: url(../Imagenes/Mapamundi-blanco.png); background-size: 
     color:#25d366;
     background-color:#FDFEFE;
     }
+
   .boton-wsp{
         margin-top:16px;
 
@@ -68,9 +69,10 @@ header{
   font-size:150%;
   color:#A93226;
   display:flex;
+  flex-wrap: wrap;
   align-items: center;
+  align-content: center;
   justify-content: space-around;
-
 
 }
 
@@ -124,7 +126,7 @@ footer{
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    
+
 
 
 }
@@ -145,11 +147,11 @@ footer{
   font-size:90%;
   color: white;
   padding-top: 15px;
-  flex-direction: column;
+  flex-direction:column;
 }
 
    .cont-btn-div{
-     margin-top: auto;
+
      color:#FFF;
      width:auto;
      height:auto;
@@ -164,6 +166,7 @@ footer{
 
    .boton-div{
      margin-top:16px;
+     margin-right: 5px;
      width: 40px;
      height: auto;
 
