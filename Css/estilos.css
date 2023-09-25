@@ -12,7 +12,6 @@ body {background-image: url(../Imagenes/Mapamundi-blanco.png); background-size: 
 .estiloulyol {font-family:Verdana;font-size:90%;font-weight: bold;color: black;padding-left: 35px;padding-top: 15px;display: flex;flex-direction: column;}
 .estilosubtitulo2 {font-size:200%;color:#196F3D;padding-left: 50px;padding-top: 40px;}
 
-
 .video1{
      display: flex;
      flex-direction: row-reverse;
@@ -36,11 +35,11 @@ body {background-image: url(../Imagenes/Mapamundi-blanco.png); background-size: 
   position: fixed;
   width:60px;
   height:60px;
-  bottom:40px;
-  right:40px;
+  bottom:100px;
+  right:30px;
   background-color:#25d366;
   color:#FDFEFE;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius:50px;
   text-align:center;
   font-size:30px;
@@ -48,7 +47,7 @@ body {background-image: url(../Imagenes/Mapamundi-blanco.png); background-size: 
   z-index:100;
  }
 
- .contenedor-boton: hover{
+ .contenedor-boton:hover{
     text-decoration: none;
     color:#25d366;
     background-color:#FDFEFE;
@@ -122,10 +121,31 @@ footer{
     background: black;
     flex-wrap: wrap;
     display: flex;
+    align-content: center;
     align-items: center;
     justify-content: space-around;
+    
 
 
+}
+
+.mapa{
+   display: flex;
+   font-family:Verdana;
+   font-size:70%;
+   color: white;
+   padding-top: 15px;
+   flex-direction: column;
+
+}
+
+.creador-contenido{
+  display: flex;
+  font-family:Verdana;
+  font-size:90%;
+  color: white;
+  padding-top: 15px;
+  flex-direction: column;
 }
 
    .cont-btn-div{
@@ -137,18 +157,17 @@ footer{
      right:30px;
      z-index:0;
      display: flex;
-     flex-direction: row;
+
 
     }
-   .cont-btn-div: hover{
-       text-decoration: none;
-       color: #81D4FA;
-       background-color:#FFF;
-    }
+
 
    .boton-div{
      margin-top:16px;
      width: 40px;
      height: auto;
 
+    }
+   .boton-div:hover{
+       transform: scale(1.5);
     }
