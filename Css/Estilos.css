@@ -1,0 +1,239 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  @font-face{
+    font-family: AardvarkBold; src:url("../Fuentes/AardvarkBold.ttf") format('truetype');
+    font-family: Amsterdam; src:url("../Fuentes/Amsterdam.ttf") format('truetype');
+    font-family: Garineldo; src:url("../Fuentes/Garineldo.otf") format('opentype');
+    font-family: Verdana; src:url("../Fuentes/Verdana.ttf") format('truetype');
+
+  }
+}
+html{background-color:#FFFF99;
+
+}
+
+body {
+  background-image: url(../Imagenes/Mapamundi-blanco.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  }
+
+.estilosubtitulo {text-align:center;font-family:"Garineldo";font-size:400%;color:#196F3D;text-decoration: line-through;text-decoration: underline;padding-top: 10px;}
+.estilotitparrafo {font-family:"AardvarkBold";font-size:150%;color:#CC0000;padding-left: 35px;padding-top: 15px;}
+.estiloulyol {
+  font-family:"Verdana";
+  font-size:90%;
+  font-weight: bold;
+  color: black;
+  padding-left: 35px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.estilosubtitulo2 {font-size:200%;color:#196F3D;padding-left: 50px;padding-top: 40px;}
+
+.video1{
+     display: flex;
+     flex-direction: row-reverse;
+}
+
+.titulo4{
+  font-family:"AardvarkBold";
+  font-size:150%;
+  color:#CC0000;
+  text-align: right;
+}
+
+.imag-historia{
+   padding-left: 30px;
+}
+
+  .boton-wsp{
+        margin-top:16px;
+  }
+  .contenedor-boton{
+    position: fixed;
+    width:60px;
+    height:60px;
+    bottom:100px;
+    right:30px;
+    background-color:#25d366;
+    color:#FDFEFE;
+    border: 2px solid black;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,3);
+    z-index:100;
+   }
+
+   .contenedor-boton:hover{
+      text-decoration: none;
+      color:#25d366;
+      background-color:#FDFEFE;
+      }
+
+
+header{
+  height: 150px;
+  width: auto;
+  background: #FF9933;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-family:"Amsterdam";
+  color:#A93226;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+
+}
+
+.logo1{
+  min-width: 80px;
+  width: 10%;
+}
+
+.titulo {
+  text-align: center;
+  display: inline;
+  font-size: 3rem;
+}
+
+nav {
+  width: 100%;
+  background: black;
+
+}
+
+ul{
+  list-style: none;
+  color:#FDFEFE;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+ul li{
+  display: inline-inline-block;
+  padding: 0px 20px;
+  
+}
+
+a:hover{color: #00CCFF;}
+
+.link1{font-size:200%; padding-top: 30px;color: #0000CC; text-decoration: none;}
+
+
+main{
+    height: auto;
+    justify-content: flex-start;
+
+}
+
+.foto_principal1{
+  min-width: 200px;
+  max-width: 400px;
+  width: 30%;
+
+}
+
+.foto_pasos1{
+  min-width: 150px;
+  max-width: 300px;
+  width: 25%;
+}
+
+.foto_pasos2{
+  min-width: 300px;
+  max-width: 600px;
+  width: 40%;
+}
+
+.foto_localizacion{
+    min-width: 250px;
+    max-width: 500px;
+    width: 50%;
+
+}
+
+.formulario1{
+  height: auto;
+  font-family: sans-serif;
+  font-variant: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items:flex-start;
+
+}
+
+.boton-enviar{
+
+}
+
+footer{
+    height: auto;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.mapa{
+   display: flex;
+   font-family:"Verdana";
+   font-size:70%;
+   color: white;
+   padding-top: 15px;
+   flex-direction: column;
+
+}
+
+.creador-contenido{
+  display: flex;
+  font-family:"Verdana";
+  font-size:90%;
+  color: white;
+  padding-top: 15px;
+  flex-direction:column;
+}
+
+   .cont-btn-div{
+
+     color:#FFF;
+     width:auto;
+     height:auto;
+     bottom:40px;
+     right:30px;
+     z-index:0;
+     display: flex;
+
+    }
+
+   .boton-div{
+     margin-top:16px;
+     margin-right: 5px;
+     width: 40px;
+     height: auto;
+
+    }
+   .boton-div:hover{
+       transform: scale(1.5);
+    }
