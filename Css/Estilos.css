@@ -42,8 +42,8 @@
     }
 
     .Titulo1 {
-
-      font-size: 60px;
+      font-size: 35px;
+      
     }
 
     nav {
@@ -88,6 +88,7 @@
     text-align:center;
     font-family:"Garineldo";
     font-size:300%;
+    font-weight: bold;
     color:#196F3D;
     text-decoration: line-through;
     text-decoration: underline;
@@ -195,6 +196,72 @@
       width: 50%;
 
   }
+.container{
+   width: 80%;
+   margin: 20px auto;
+
+}
+
+.card{
+  margin-top: 0;
+  border: 1px solid #CC0000;
+  background-color: #FFFFCC;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-body{
+  padding: 20px 15px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+}
+
+.card-img-top{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-text{
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.card-boton{
+    background-color: red;
+    border-color: #CC0000;
+    color: white;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.card-boton:hover{
+      background-color:#82E0AA;
+      border-color: #CC0000;
+    }
+
+.cuadro{
+  font-family:"Verdana";
+  font-size:60%;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: stretch;
+}
+
 
 @media (max-width:575px) {
   .foto_principal1{
