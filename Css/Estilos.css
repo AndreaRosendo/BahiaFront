@@ -1,13 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    @font-face{
-      font-family: AardvarkBold; src:url("../Fuentes/AardvarkBold.ttf") format('truetype');
-      font-family: Amsterdam; src:url("../Fuentes/Amsterdam.ttf") format('truetype');
-      font-family: Garineldo; src:url("../Fuentes/Garineldo.otf") format('opentype');
-      font-family: Verdana; src:url("../Fuentes/Verdana.ttf") format('truetype');
 
-    }
   }
 
   html{
@@ -26,9 +20,6 @@
       background: #FF9933;
       padding-left: 10px;
       padding-top: 15px;
-      font-family:"Amsterdam";
-      font-size: 35px;
-      color:#A93226;
       display:flex;
       flex-wrap: wrap;
       align-items: center;
@@ -42,8 +33,10 @@
     }
 
     .Titulo1 {
-      font-size: 35px;
-      
+      font-family: 'Dancing Script', cursive;
+      font-size: 85px;
+      color:#A93226;
+
     }
 
     nav {
@@ -55,14 +48,14 @@
 
     ul{
       list-style: none;
+      font-family: 'Oswald', sans-serif;
       color:#FDFEFE;
       display: flex;
       justify-content: space-between;
       padding-top: 10px;
       padding-left: 5px;
       padding-right: 5px;
-      font-size: 20px;
-      font-weight: bold;
+      font-size: 25px;
       justify-content: space-around;
       flex-wrap: wrap;
 
@@ -86,7 +79,7 @@
 
   .estilosubtitulo {
     text-align:center;
-    font-family:"Garineldo";
+    font-family: 'Merienda', cursive;
     font-size:300%;
     font-weight: bold;
     color:#196F3D;
@@ -96,17 +89,24 @@
   }
 
   .estilotitparrafo {
-    font-family:"AardvarkBold";
-    font-size:150%;
+    font-family: 'Pacifico', cursive;
+    font-size:250%;
     color:#CC0000;
     padding-left: 35px;
     padding-top: 15px;
   }
 
+  .estilotitparrafo2 {
+    font-family: 'Pacifico', cursive;
+    font-size:150%;
+    color:#CC0000;
+    padding-left: 35px;
+    padding-top: 15px;
+
+  }
   .estiloulyol {
-    font-family:"Verdana";
-    font-size:90%;
-    font-weight: bold;
+    font-family: 'Gabarito', sans-serif;
+    font-size:120%;
     color: black;
     padding-left: 35px;
     padding-top: 15px;
@@ -115,22 +115,27 @@
   }
 
   .estilosubtitulo2 {
+    font-family: 'Merienda', cursive;
     font-size:200%;
     color:#196F3D;
+    text-decoration: underline;
     padding-left: 50px;
     padding-top: 40px;
   }
 
-  .video1{
+  .estilo-video{
        display: flex;
-       flex-direction: row-reverse;
+       flex-direction: column;
+       text-align: right;
   }
 
   .titulo4{
-    font-family:"AardvarkBold";
+    font-family: 'Merienda', cursive;
     font-size:150%;
-    color:#CC0000;
-    text-align: right;
+    color: black;
+    padding-left: 35px;
+    padding-top: 15px;
+
   }
 
   .imag-historia{
@@ -228,10 +233,12 @@
 
 .card-title{
   text-align: center;
+  font-size: 22px;
 }
 
 .card-text{
   display: flex;
+  font-size: 12px;
   flex-grow: 1;
 
 }
@@ -242,9 +249,9 @@
     color: white;
     display: block;
     padding: 5px;
+    font-size: 25px;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 8px;
 }
 
@@ -254,7 +261,7 @@
     }
 
 .cuadro{
-  font-family:"Verdana";
+  font-family: 'Gabarito', sans-serif;
   font-size:60%;
   font-weight: bold;
   color: black;
@@ -293,13 +300,41 @@
   .logo1{
      display:none;
   }
-  .video1{
-    display: none;
-  }
-  .titulo4{
+  .estilo-video{
     display: none;
   }
 }
+
+@media (min-width:1200px) {
+  .foto_principal2{
+    min-width: 200px;
+    max-width: 400px;
+    width: 30%;
+    display: none;
+  }
+  .logo1{
+     width: 10%;
+     display: block;
+  }
+
+  }
+  header{
+    padding-left: 10px;
+    padding-top: 15px;
+    height: 20%;
+    width: auto;
+    font-size: 35px;
+    color: white;
+    background: #FF9933;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+}
+
 
 @media (min-width:575px) {
   .foto_principal2{
@@ -330,10 +365,7 @@
   .logo1{
      display:none;
   }
-  .video1{
-    display: none;
-  }
-  .titulo4{
+  .estilo-video{
     display: none;
   }
 }
@@ -363,45 +395,15 @@
     align-content: center;
     justify-content: space-around;
   }
-  .video1{
+  .estilo-video{
     display: none;
   }
-  .titulo4{
-    display: none;
-  }
-}
-@media (min-width:1200px) {
-  .foto_principal2{
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
-    display: none;
-  }
-  .logo1{
-     width: 10%;
-     display: block;
-  }
-  header{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 20%;
-    width: auto;
-    font-size: 35px;
-    color: white;
-    background: #FF9933;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-  }
-
 }
 
 
   .formulario1{
     height: auto;
-    font-family: sans-serif;
+    font-family: 'Gabarito', sans-serif;
     font-variant: inherit;
     font-weight: bold;
     font-size: 20px;
@@ -430,7 +432,7 @@
 
   .mapa{
      display: flex;
-     font-family:"Verdana";
+     font-family: 'Gabarito', sans-serif;
      font-size:70%;
      color: white;
      padding-top: 15px;
@@ -440,7 +442,7 @@
 
   .creador-contenido{
     display: flex;
-    font-family:"Verdana";
+    font-family: 'Gabarito', sans-serif;
     font-size:90%;
     color: white;
     padding-top: 15px;
