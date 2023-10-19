@@ -272,9 +272,6 @@
 
 @media (max-width:575px) {
   .foto_principal1{
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
     display: none;
   }
   .foto_principal2{
@@ -307,9 +304,6 @@
 
 @media (min-width:1200px) {
   .foto_principal2{
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
     display: none;
   }
   .logo1{
@@ -336,11 +330,36 @@
 }
 
 
+
+@media (max-width:700px) {
+  .foto_principal1{
+     display: none;
+  }
+
+ .audio {
+    display: none;
+  }
+
+  header{
+    padding-left: 10px;
+    padding-top: 15px;
+    height: 20%;
+    width: auto;
+    font-size: 30px;
+    background: #33FF99;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .estilo-video{
+    display: none;
+  }
+}
+
 @media (min-width:575px) {
   .foto_principal2{
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
     display: none;
   }
   .audio {
@@ -369,37 +388,6 @@
     display: none;
   }
 }
-
-@media (max-width:700px) {
-  .foto_principal1{
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
-    display: none;
-  }
-
- .audio {
-    display: none;
-  }
-
-  header{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 20%;
-    width: auto;
-    font-size: 30px;
-    background: #33FF99;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-  }
-  .estilo-video{
-    display: none;
-  }
-}
-
 
   .formulario1{
     height: auto;
