@@ -18,17 +18,19 @@
     <link rel="shortcut icon" href="./Imagenes/logo1.ico" type="image/x-icon">
   <!-- coloca icono en el titulo del html-->
      <link rel="stylesheet" href="./Css/Estilos.css">
+
   <!-- llama a utilizar el css que contienen los estilos -->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script>
+        alert("Bienvenidos a mi pagina de Recetas con Historia, les agradezco su visita!!!")
+    </script>
 
   </head>
   <body>
 
     <audio class="audio" src="./Audios/piano.mp3"autoplay></audio>
     <!-- le pone musica ala pagina con ejecucion automática -->
-
-
 
     <header>
        <img class="logo1" src="./Imagenes/logo.png" alt="Logo-Pagina">
@@ -46,6 +48,8 @@
          <img class="boton-div" src="./Imagenes/YouTube.png" alt="">
          </a>
        </div>
+
+
     </header>
 
     <nav>
@@ -55,6 +59,11 @@
          <li><a href="https://sofiabailetti.github.io/potreroDigital/index.html"target="_blank">Empanadas Salteñas</a></li>
          <li><a href="https://franco-3209.github.io/Potrero_Digital/index.html"target="_blank">Cannoli Siciliano</a></li>
          <li><a href="./contacto.html">Contacto</a></li>
+         <div>
+            <button onclick="BotonDark()" type="button" class="btn btn-warning Dark">Dark</button>
+            <button onclick="BotonWhite()" type="button" class="btn btn-warning Claro">Light</button>
+
+         </div>
 
        </ul>
     </nav>
@@ -66,6 +75,7 @@
     <main>
 
       <h2 class="estilosubtitulo"> RIWWEL KUCHEN - Torta Alemana </h2>
+
       <br>
 
       <div class="foto_principal1">
@@ -311,16 +321,15 @@
         <img class="boton-div" src="./Imagenes/YouTube.png" alt="">
         </a>
       </div>
-      <div class="creador-contenido">
-        <p>Creado por Andrea Rosendo</p>
-        <br>
-        <p>Para el proyecto de Potrero Digital </p>
-        <br>
-        <p>Bahía Blanca - Buenos Aires - Argentina</p>
+      <div>
+          <button type="button" class="btn btn-warning creador-contenido" onclick="Cartelito()"> AUTOR </button>
       </div>
     </footer>
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+    <script src="./JS/arch-java.js"></script>
+    
   </body>
 </html>

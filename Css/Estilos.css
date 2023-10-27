@@ -8,8 +8,12 @@
     background-color:#FFFF99;
     }
 
+}
   body {
+    background-color:#FFFF99;
     background-image: url(../Imagenes/Mapamundi-blanco.png);
+    background-size:contain;
+    background-repeat: repeat;
     background-size: 100%;
     background-attachment: fixed;
     }
@@ -86,6 +90,20 @@
     text-decoration: line-through;
     text-decoration: underline;
     padding-top: 10px;
+
+  }
+
+  .Btn-Estilo{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    color: #FF9933;
+    font-weight: bold;
+
+  }
+
+  .Btn-Estilo:hover{
+    background-color:red;
+
   }
 
   .estilotitparrafo {
@@ -133,6 +151,8 @@
     font-family: 'Merienda', cursive;
     font-size:150%;
     color: black;
+    text-decoration: line-through;
+    text-decoration: underline;
     padding-left: 35px;
     padding-top: 15px;
 
@@ -269,75 +289,33 @@
   align-items: stretch;
 }
 
+.Claro {
+  color: black;
+  background-color: #fff;
+}
+.Claro:hover {
+  color: black;
+  background-color:#ccc;
+}
 
-@media (max-width:575px) {
+.Dark {
+  color: #fff;
+  background-color: black;
+}
+.Dark:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+@media (max-width:700px) {
+
   .foto_principal1{
-    display: none;
-  }
-  .foto_principal2{
     min-width: 200px;
     max-width: 400px;
     width: 30%;
   }
-
-  header{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 20%;
-    width: auto;
-    background: #FFF176;
-    font-size: 10px;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-  }
-
-  .logo1{
-     display:none;
-  }
-  .estilo-video{
-    display: none;
-  }
-}
-
-@media (min-width:1200px) {
   .foto_principal2{
-    display: none;
-  }
-  .logo1{
-     width: 10%;
-     display: block;
-  }
-
-  }
-  header{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 20%;
-    width: auto;
-    font-size: 35px;
-    color: white;
-    background: #FF9933;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-  }
-
-}
-
-
-
-@media (max-width:700px) {
-  .foto_principal1{
      display: none;
-  }
-
- .audio {
-    display: none;
   }
 
   header{
@@ -346,41 +324,43 @@
     height: 20%;
     width: auto;
     font-size: 30px;
-    background: #33FF99;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: space-around;
   }
-  .estilo-video{
-    display: none;
-  }
+
 }
 
-@media (min-width:575px) {
-  .foto_principal2{
+@media (max-width:575px) {
+
+  .foto_principal1{
     display: none;
+  }
+  .foto_principal2{
+    display: contents;
+    min-width: 200px;
+    max-width: 400px;
+    width: 30%;
   }
   .audio {
-    display: none;
-  }
-
-
+     display: none;
+   }
   header{
     padding-left: 10px;
     padding-top: 15px;
     height: 20%;
     width: auto;
-    background: #FFF176;
+
     font-size: 10px;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: space-around;
-
   }
+
   .logo1{
      display:none;
   }
@@ -409,6 +389,7 @@
 
   footer{
       height: auto;
+      font-size: 20px;
       background: black;
       display: flex;
       flex-wrap: wrap;
@@ -429,12 +410,14 @@
   }
 
   .creador-contenido{
-    display: flex;
     font-family: 'Gabarito', sans-serif;
-    font-size:90%;
-    color: white;
-    padding-top: 15px;
-    flex-direction:column;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .creador-contenido:hover{
+    background-color:red;
+    color:#FFCA28;
   }
 
      .cont-btn-div{
