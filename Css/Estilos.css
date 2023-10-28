@@ -8,7 +8,6 @@
     background-color:#FFFF99;
     }
 
-}
   body {
     background-color:#FFFF99;
     background-image: url(../Imagenes/Mapamundi-blanco.png);
@@ -146,7 +145,9 @@
        flex-direction: column;
        text-align: right;
   }
-
+  .foto_principal2{
+     display: none;
+  }
   .titulo4{
     font-family: 'Merienda', cursive;
     font-size:150%;
@@ -221,6 +222,8 @@
       width: 50%;
 
   }
+
+
 .container{
    width: 80%;
    margin: 20px auto;
@@ -307,67 +310,6 @@
   background-color: #ccc;
 }
 
-@media (max-width:700px) {
-
-  .foto_principal1{
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
-  }
-  .foto_principal2{
-     display: none;
-  }
-
-  header{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 20%;
-    width: auto;
-    font-size: 30px;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-  }
-
-}
-
-@media (max-width:575px) {
-
-  .foto_principal1{
-    display: none;
-  }
-  .foto_principal2{
-    display: contents;
-    min-width: 200px;
-    max-width: 400px;
-    width: 30%;
-  }
-  .audio {
-     display: none;
-   }
-  header{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 20%;
-    width: auto;
-
-    font-size: 10px;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-  }
-
-  .logo1{
-     display:none;
-  }
-  .estilo-video{
-    display: none;
-  }
-}
 
   .formulario1{
     height: auto;
@@ -383,7 +325,7 @@
 
   }
 
-  .boton-enviar{
+  /*.boton-enviar{
     /* para completar en algun momento  */
   }
 
@@ -441,4 +383,44 @@
       }
      .boton-div:hover{
          transform: scale(1.5);
+      }
+      @media (max-width:700px) {
+
+        .foto_principal1{
+          display: contents;
+          width: 30%;
+        }
+        .foto_principal2{
+           display: none;
+        }
+
+        header{
+          font-size: 30px;
+        }
+
+      }
+
+      @media (max-width:575px) {
+
+        .foto_principal1{
+          display: none;
+        }
+        .foto_principal2{
+          display: contents;
+          width: 30%;
+        }
+
+        .audio {
+           display: none;
+         }
+        header{
+          font-size: 10px;
+        }
+
+        .logo1{
+           display:none;
+        }
+        .estilo-video{
+          display: none;
+        }
       }
