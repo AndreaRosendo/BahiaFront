@@ -221,6 +221,10 @@
       width: 50%;
 
   }
+
+  .foto_principal2{
+     display: none;
+  }
 .container{
    width: 80%;
    margin: 20px auto;
