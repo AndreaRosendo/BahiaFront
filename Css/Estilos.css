@@ -9,8 +9,7 @@ html{
 }
 
 body {
-  background-color:#FFFF99;
-  background-image: url(../Imagenes/Mapamundi-blanco.png);
+  background-image: url("../Imagenes/Mapamundi-blanco.png");
   background-size:contain;
   background-repeat: repeat;
   background-size: 100%;
@@ -32,6 +31,13 @@ header{
    
 .logo1{
   width: 10%;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.logo1:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .Titulo1 {
@@ -61,6 +67,10 @@ ul{
 
 }
 
+ol li{
+  color:black
+}
+
 ul li{
   display: inline-block;
   padding: 0px 20px;
@@ -86,18 +96,17 @@ a:hover{
   padding-top: 10px;
 }
 
-  .Btn-Estilo{
-    font-family: 'Gabarito', sans-serif;
-    font-size: 20px;
-    color: #FF9933;
-    font-weight: bold;
+.Btn-Estilo{
+  font-family: 'Gabarito', sans-serif;
+  font-size: 20px;
+  color: #FF9933;
+  font-weight: bold;
 
-  }
+}
 
-  .Btn-Estilo:hover{
-    background-color:red;
-
-  }
+.Btn-Estilo:hover{
+  background-color:red;
+}
 
 .estilotitparrafo {
   font-family: 'Pacifico', cursive;
@@ -286,6 +295,19 @@ main{
   align-items: stretch;
 }
 
+.mapa-ubicacion{
+  width: 300px;
+  height: 150px;
+  border:0; 
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.mapa-ubicacion:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .Dark {
   background-color: #FFCA28;
   color: black;
@@ -296,66 +318,77 @@ main{
   color: #fac730;
 }
 
-.modoDark{
+.modoDark html{
+  background-color: black;
+}
+
+.modoDark main{
   background-color: black;
   color: #fff;
+  background-image: url("../Imagenes/Mapamundi-negro.png");
 }
 
-.modoDark .body{
-  background-image: url(../Imagenes/Mapamundi-negro.png);
+.modoDark header{
+  background-color: black;
 }
 
-.modoDark .nav{
+.modoDark nav{
   background-color: #FFF;
   color: black;
 }
 
-.modoDark .a {
+.modoDark a{
   color: black;
 }
 
-.modoDark .p {
+.modoDark p{
   color: #FFF;
 }
 
-.modoDark .label {
-  color: black;
+.modoDark li{
+  color: #FFF;
 }
 
-.modoDark .input {
-  color: black;
+.modoDark .Titulo1{
+  color: #FF9933;
 }
 
-.modoDark .h1 {
-  color: #FFE0B2;
+.modoDark .estilosubtitulo{
+  color: #74f07f;
 }
 
-.modoDark .h2 {
-  color: #E8F5E9;
+.modoDark .estilosubtitulo2{
+  color: #74f07f;
 }
 
-.modoDark .h3 {
+.modoDark .estilotitparrafo{
   color: #CC0000;
 }
 
-.modoDark .h4 {
+.modoDark .titulo4{
+  color:#fac730
+}
+
+.modoDark .estilotitparrafo2{
+  color:#fac730
+}
+
+.modoDark h5{
   color: #FFF;
 }
 
-.modoDark .h5 {
-  color: #FFF;
+.modoDark label{
+  color: #5fc95c;
 }
 
-.modoDark .card {
+.modoDark .card{
   background-color: black;
   color: #FFF;
   border-color: #CC0000;
 }
 
-.modoDark .footer {
-  background-color: #FFF;
-  color: black;
-   
+.modoDark footer p{
+  color:#fac730
 }
 
 .formulario1{
@@ -372,9 +405,21 @@ main{
 
 }
 
-/*.boton-enviar{
-   para completar en algun momento  
-}*/
+.boton-enviar{
+  background-color:red;
+  color:#FFCA28;
+  border-color: #25d366;
+  border-radius: 20%;
+  Font-family: 'Gabarito', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.boton-enviar:hover{
+  background-color:#FFCA28;
+  color:red;
+}
+
 
 footer{
   height: auto;
